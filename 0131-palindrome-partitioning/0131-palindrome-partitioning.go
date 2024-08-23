@@ -1,5 +1,5 @@
 func partition(s string) [][]string {
-            var result [][]string
+        var result [][]string
         var current []string
         backtrack(s, current, &result, 0)
         return result
