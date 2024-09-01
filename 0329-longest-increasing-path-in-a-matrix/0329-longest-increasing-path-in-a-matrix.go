@@ -1,4 +1,3 @@
-
 type Matrix struct {
     data [][]int
     memo [][]int
@@ -30,7 +29,6 @@ func longestIncreasingPath(matrix [][]int) int {
         }
     }
     return maxLt
-
 }
 
 func dfs (i,j int, matrix *Matrix) int{
